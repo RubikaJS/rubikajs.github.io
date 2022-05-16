@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#body {
+    min-height: 100vh;
+    display: block;
+    overflow-x: hidden;
+    line-height: 45px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    width: 100%;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black;
+}
+
+#header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    font-size: 80%;
+}
+
+#header>h1 {
+    padding: 15px;
+    margin-left: 10px;
+    background-color: crimson;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+#menu>hr {
+    height: 6px;
+    width: 35px;
+    border: none;
+    margin: 3px;
+    background-color: crimson;
+}
+
+#nav {
+    min-height: 100vh;
+    width: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    overflow-x: hidden;
+    transition-duration: 1s;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.button {
+    height: 50px;
+    width: 200px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.facebook {
+    background-color: hsl(222, 100%, 50%);
+}
+
+.close_button {
+    background-color: crimson;
+}
+
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#footer {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: crimson;
+}
